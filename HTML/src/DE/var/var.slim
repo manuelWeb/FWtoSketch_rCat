@@ -1,0 +1,20 @@
+== Slim::Template.new('./src/varglobal.slim').render
+
+-$srcAbs = "https://tempsl.com/Newsletters/miroir/Relance_#{$date}/DE/images/"
+/ alt do not change
+-$logo_alt = "IDEAL PRAKTISCH: Küchenartikel und clevere Lösungen für den Haushalt"
+-$cat_alt = "Blättern Sie in unserem neuen Katalog ! Klicken Sie hier &gt;"
+-$foo_alt=["Wie kann ich meine Angebote wahrnehmen?","ICH GEBE BEI MEINER BESTELLUNG MEINEN GESCHENKCODE EIN :","INTERNET Gehen Sie auf www.ideal-praktisch.de","TELEFON 0681 99 63 333 Montags bis freitags von 8 - 19Uhr, Samstags von 9 - 17Uhr","ZUFRIEDENHEITS-GARANTIE","LIEFERUNG","SICHERE ZAHLUNG","1 JAHRE QUALITÄTSGARANTIE"]
+
+/ link
+-$url= $objso["url"]["de"]
+-$idx= "index.aspx"
+
+-$urlcat="https://www.ideal-praktisch.de/cat/de/ECatalog.htm"
+
+-$urlKdo="animation/presentation-cadeaux.aspx"
+-$ha_conf=["achat_confiance/garanties.aspx","achat_confiance/informations-livraison.aspx","achat_confiance/paiement-securise.aspx"]
+-$legal=["animation/DesinscriptionNewsletter.aspx","idealpractical_and_you/contact.aspx","achat_confiance/mentions-legales.aspx","achat_confiance/conditions-generales-de-vente.aspx","pages/settlement.aspx"]
+/ track do not change
+- $mediumSrc = "?utm_source=NL&utm_medium=email"
+- $utmContent = "&utm_content="

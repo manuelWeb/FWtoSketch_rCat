@@ -1,0 +1,20 @@
+== Slim::Template.new('./src/varglobal.slim').render
+
+-$srcAbs = "https://tempsl.com/Newsletters/miroir/Relance_#{$date}/UK/images/"
+
+/ alt do not change
+-$logo_alt = "IDEAL &amp; PRACTICAL: Useful gadgets for cooking, home, cleaning and storage products."
+-$cat_alt = "Discover the new catalogue! Click here &gt;"
+-$foo_alt=["How to benefit from my privilege ?","PLEASE NOTE YOUR GIFT CODE WHEN YOU ORDER  : ","BY INTERNET 24/7 at www.ideal-practical.co.uk","BY PHONE call 0844 481 2207 £0.07 per minute Monday-Friday 8.30am - 5pm / Saturday 8.30am - 4.30 pm","GUARANTEE OF SATISFACTION","HOME DELIVERY","SECURE PAYMENT","1 YEAR QUALITY GUARANTEE"]
+
+/ link
+-$url = $objso["url"]["uk"]
+-$idx = "index.aspx"
+
+-$urlcat="https://www.ideal-practical.co.uk/cat/uk/ECatalog.htm"
+-$urlKdo="animation/presentation-cadeaux.aspx"
+-$ha_conf=["achat_confiance/garanties.aspx","achat_confiance/informations-livraison.aspx","achat_confiance/paiement-securise.aspx"]
+-$legal=["idealpractical_and_you/contact.aspx","animation/DesinscriptionNewsletter.aspx","achat_confiance/conditions-generales-de-vente.aspx","pages/settlement.aspx"]
+/ track do not change
+- $mediumSrc = "?utm_source=NL&utm_medium=email"
+- $utmContent = "&utm_content="

@@ -1,0 +1,162 @@
+== Slim::Template.new('./src/UK/var/var.slim').render
+
+doctype transitional
+html
+  head
+    title == $objso["title"]["uk"]
+    meta content="text/html;charset=UTF-8" http-equiv="Content-Type"
+    link rel="stylesheet" href="css/addStyles.css"
+    /   @show addStyles.scss
+    / link rel="stylesheet" href="scss/addStyles.scss"/
+
+  body bgcolor="#ffffff" link="#333333" style="margin:0;" vlink="#666666"
+    table align="center" border="0" cellpadding="0" cellspacing="0" width="680"
+      // header-doc
+      tr
+        td align="center" style="margin:0;padding-top:5px;"
+          font style="margin:0;padding:0;font-family:Verdana, Geneva, sans-serif;font-size:12px;color:#333333;text-align:center;"
+            | Discover our new collection and get your free gifts!
+            br
+            font style="font-family:Verdana, Geneva, sans-serif;font-size:10px;color:#333333;margin:0;"
+              | If the page does not come up, please 
+              a href="#{$objso["link"]["miror"]["0"]}#{$date}/UK/index.htm" target="_blank"
+                strong click here
+      / content
+      tr
+        td
+          table align="center" border="0" cellpadding="0" cellspacing="0" style="text-align: center; margin: 0 auto; " width="680"
+            // header-news
+            tr
+              td height="124" width="680"
+                table border="0" cellpadding="0" cellspacing="0"
+                  tr
+                    td
+                      a href==($url+$idx+$mediumSrc+$utmContent+"HP"+$campaign) target="_blank"
+                        img alt==($logo_alt) border="0" height="146" width="306" src==(($abspath == true ? $srcAbs : $srcRel)+"insert_logo.png") style="font-family: Georgia, Times, serif; font-size: 26px; text-align: left; color: #333333; text-transform: uppercase; "
+                    td
+                      a href==($urlcat+$mediumSrc+$utmContent+"HP"+$campaign) target="_blank"
+                        img alt==($cat_alt) border="0" height="146" width="374" src==(($abspath == true ? $srcAbs : $srcRel)+"insert_cat.png") style="font-family: Georgia, Times, serif; font-size: 18px; text-align: right; color: #B21F1F; "
+            // gift normal mode
+            - if $objso["layout"]["normal"]
+              == Slim::Template.new('./src/UK/partial/_gift_csoa-cmc.slim').render
+            - else
+              == Slim::Template.new('./src/UK/partial/_gift_csoa-cmcX2.slim').render
+
+            - if $objso["banner"]["is"] == true
+              tr
+                td align="center" width="680"
+                  == Slim::Template.new('./src/UK/partial/_banner.slim').render
+      / footer
+      tr
+        td align="center" width="700"
+          table border="0" cellpadding="0" cellspacing="0"
+            tr
+              td colspan="2" height="43" width="700"
+                img alt==($foo_alt[0]) border="0" height="43" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_01.png") width="700"
+            tr
+              td colspan="2" height="25" width="700"
+                table border="0" cellpadding="0" cellspacing="0" width="700"
+                  tr
+                    td
+                      img alt==($foo_alt[1]) border="0" height="25" width="512" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_02.png")
+                    td align="center" height="25" width="71" style="vertical-align: middle; " valign="middle"
+                      font style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #333333; text-transform: uppercase; "
+                        == $objso["gift"]["code"]
+                    td
+                      img alt="" border="0" height="25" width="117" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_04.png")
+            tr
+              td height="112" width="350"
+                a href==($url+$idx+$mediumSrc+$utmContent+"HP"+$campaign) target="_blank"
+                  img alt==($foo_alt[2]) border="0" height="112" width="350" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_05.png")
+              td height="112" width="350"
+                - if $objso["mention_plus"]["uk"]["phone_ast"] == 0
+                  img alt==($foo_alt[3]) border="0" height="112" width="350" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_06.png")
+                - if $objso["mention_plus"]["uk"]["phone_ast"] == 1
+                  img alt==($foo_alt[3]) border="0" height="112" width="350" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_06-1.png")
+                - if $objso["mention_plus"]["uk"]["phone_ast"] == 2
+                  img alt==($foo_alt[3]) border="0" height="112" width="350" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_06-2.png")
+                - if $objso["mention_plus"]["uk"]["phone_ast"] == 3
+                  img alt==($foo_alt[3]) border="0" height="112" width="350" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_06-3.png")
+              
+            tr
+              td colspan="2" height="56" width="700"
+                table border="0" cellpadding="0" cellspacing="0" width="700"
+                  tr
+                    td
+                      a href==($url+$ha_conf[0]+$mediumSrc+$utmContent+"garantie"+$campaign) target="_blank"
+                        img.ta-c alt==($foo_alt[4]) border="0" height="56" width="178" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_07.png")
+                    td
+                      a href==($url+$ha_conf[1]+$mediumSrc+$utmContent+"livraison"+$campaign) target="_blank"
+                        img.ta-c alt==($foo_alt[5]) border="0" height="56" width="172" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_08.png")
+                    td
+                      a href==($url+$ha_conf[2]+$mediumSrc+$utmContent+"paiement"+$campaign) target="_blank"
+                        img.ta-c alt==($foo_alt[6]) border="0" height="56" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_09.png") style="display:block;" width="172"
+                    td
+                      a href==($url+$ha_conf[0]+$mediumSrc+$utmContent+"garanties"+$campaign) target="_blank"
+                        img.ta-c alt==($foo_alt[7]) border="0" height="56" width="178" src==(($abspath == true ? $srcAbs : $srcRel)+"foo_10.png")
+      / legal
+      tr
+        td style="padding-top: 5px; padding-bottom: 20px;"
+          p align="left" style="line-height: 140%; font-family: Verdana, Geneva, sans-serif; font-size: 11px; color: #555555; margin: 0; text-align: justify;"
+            /| * Free with your order. While stocks last. May be substituted. Photos are non-contractual, Actual products may differ slightly from photos. 
+            /br
+            / modalite nolink
+            - if $objso["mention_plus"]["uk"]["nolnk"]["1"] != ""
+              == $objso["mention_plus"]["uk"]["nolnk"]["1"]
+              br
+            / modalite nolink2_
+            - if $objso["mention_plus"]["uk"]["nolnk"]["2"] != ""
+              == $objso["mention_plus"]["uk"]["nolnk"]["2"]
+              br
+            / modalite link
+            - if $objso["mention_plus"]["uk"]["link"] != ""
+              a href==($url+$legal[3]+$mediumSrc+$utmContent+"reglement"+$campaign+$objso["gift"]["modalite"]) target="_blank"
+                == $objso["mention_plus"]["uk"]["link"]
+              br
+            / modalites attribution
+            - if $mod_reg_uk[:m1] != ""
+              == $mod_reg_uk[:m0] + "&nbsp;"
+              a href==($url+$legal[3]+$mediumSrc+$utmContent+"reglement"+$campaign+$objso["gift"]["modalite"]) target="_blank"
+                strong ==($mod_reg_uk[:m1])
+              == $mod_reg_uk[:m2]
+              br
+            - if $mod_reg_uk[:detail] != ""
+                == $mod_reg_uk[:detail]
+                br
+            / reglement jeu
+            - if $mod_reg_uk[:r1] != ""
+              == $mod_reg_uk[:r0] + "&nbsp;"
+              a href==($url+$legal[3]+$mediumSrc+$utmContent+"reglement"+$campaign+$objso["gift"]["modalite"]) target="_blank"
+                strong ==($mod_reg_uk[:r1])
+              == $mod_reg_uk[:r2]
+              br
+            br
+            
+            / contact
+            a href==($url+$legal[0]+"?val=A&utm_source=NL&utm_medium=email"+$utmContent+"contact"+$campaign) style="color: #333333;" target="_blank"
+              strong
+                u
+                  | Contact us
+            br
+            / desabo
+            | Click here to 
+            a href==($url+$legal[1]+$mediumSrc+$utmContent+"desabo"+$campaign) style="color: #333333;" target="_blank"
+              | unsubscribe
+            |.
+            br
+            / CGV
+            | Please click through for our General Terms of Sale 
+            a href==($url+$legal[2]+"?utm_source=NL&utm_medium=email&utm_content=cgv"+$campaign) style="color: #333333;" target="_blank"
+              strong
+                u
+                  | on this page.
+            br
+            | &copy;2018 - Ideal Practical -  ORDER SOLUTIONS - PO BOX 787 SOUTHALL UB3 9TS
+            br
+            / | $ukPhoneCoast[1]>* $ukPhoneCoast[2]>** etc...
+            - if $objso["mention_plus"]["uk"]["phone_ast"] == 1
+              == $ukPhoneCoast[1]+$ukPhoneCoast[4]
+            - if $objso["mention_plus"]["uk"]["phone_ast"] == 2
+              == $ukPhoneCoast[2]+$ukPhoneCoast[4]
+            - if $objso["mention_plus"]["uk"]["phone_ast"] == 3
+              == $ukPhoneCoast[3]+$ukPhoneCoast[4]

@@ -1,0 +1,29 @@
+-gift = {img1h: 202, img2h: 254, img3h: 140, img_btn: 64}
+
+tr
+  // csoa
+  td height==(gift[:img1h]) width="680"
+    a href==($url+$objso["gift"]["lk"]+$objso["gift"]["gg"]+$campaign+$objso["gift"]["id"]["csoa"]) style="border: none; outline: none; " target="_blank"
+      img.altgift alt==($objso["gift"]["alt"]["nl"]["csoa"]) border="0" height==(gift[:img1h]) src==(($abspath == true ? $srcAbs : $srcRel)+"insert_gift1.jpg") width="680"
+tr
+  td height==(gift[:img2h]) width="680"
+    table border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" width="100%"
+      tr
+        // csoa
+        td
+          a href==($url+$objso["gift"]["lk"]+$objso["gift"]["gg"]+$campaign+$objso["gift"]["id"]["csoa"]) style="border: none; outline: none; " target="_blank"
+            img.altgift alt==($objso["gift"]["alt"]["nl"]["csoa"]) border="0" height==(gift[:img2h]) src==(($abspath == true ? $srcAbs : $srcRel)+"insert_gift2_c1.jpg") width="436"
+        // cmc
+        td
+          a href==($url+$objso["gift"]["lk"]+$objso["gift"]["gg"]+$campaign+$objso["gift"]["id"]["cmc"]) style="border: none; outline: none; " target="_blank"
+            img.altgift alt==($objso["gift"]["alt"]["nl"]["cmc"]) border="0" height==(gift[:img2h]) src==(($abspath == true ? $srcAbs : $srcRel)+"insert_gift2_c2.jpg") width="244"
+tr
+  // cmc2
+  td height==(gift[:img3h]) width="680"
+    a href==($url+$objso["gift"]["lk"]+$objso["gift"]["gg"]+$campaign+$objso["gift"]["id"]["cmc2"]) style="border: none; outline: none; " target="_blank"
+      img.altgift alt==($objso["gift"]["alt"]["nl"]["cmc2"]) border="0" height==(gift[:img3h]) src==(($abspath == true ? $srcAbs : $srcRel)+"insert_gift3.jpg") width="680"
+tr
+  // btn
+  td height==(gift[:img_btn]) width="680"
+    a href==($url+$objso["gift"]["lk"]+$objso["gift"]["gg"]+$campaign) style="border: none; outline: none; " target="_blank"
+      img.altgift alt==($objso["gift"]["alt"]["nl"]["btn"]) border="0" height==(gift[:img_btn]) src==(($abspath == true ? $srcAbs : $srcRel)+"insert_btn.jpg") width="680"

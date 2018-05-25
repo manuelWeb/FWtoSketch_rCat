@@ -1,0 +1,149 @@
+{
+  "date": "0518",
+  "title": {
+    "bf": "IDEAL &amp; PRATIQUE",
+    "bv": "IDEAL &amp; PRAKTIJK",
+    "de": "IDEAL &amp; PRAKTISCH",
+    "nl": "IDEAL &amp; PRAKTIJK",
+    "uk": "IDEAL PRACTICAL"
+  },
+  "head_doc": {
+    "show": "index.slim#country"
+  },
+  "link": {
+    "miror": {
+      "0": "https://tempsl.com/Newsletters/miroir/Relance_"
+    }
+  },
+  "gift": {
+    "code": "Y5WB",
+    "lk"  : "animation/presentation-cadeaux.aspx",
+    "gg": "?utm_source=NL&utm_medium=email&utm_content=kdo",
+    "alt": {
+      "bf": {
+        "csoa": "Le Sac Evasion coloris au choix GRATUIT* pour vous ! ",
+        "cmc" : "Votre 2ème Avantage La Trousse de toilette assorti Prix d'Ami",
+        "cmc2": "Votre 3ème Avantage Un chèque en euros dans votre colis en plus de vos cadeaux*** ! Et son montant peut aller jusqu’à … 5000,00 €",
+        "btn" : "Proﬁtez-en vite !"
+      },
+      "bv": {
+        "csoa": "Uw 1e privilege De Évasion-tas GRATIS* voor u!",
+        "cmc" : "Uw 2e privilege De bijpassende Toilettas Vriendenprijsje**",
+        "cmc2": "Uw 3e privilege Een cheque in euro’s in uw pakje naast de cadeaus waar u recht op hebt*** ! En het bedrag ervan kan gaan tot… €5.000,00",
+        "btn" : "Bestel snel!"
+      },
+      "de": {
+        "csoa": "Ihr 1. Vorteilsangebot Die Tasche Évasion GRATIS Für Sie!",
+        "cmc" : "Ihr 2. Vorteilsangebot Der passende Kulturbeutel Freundschaftspreis**",
+        "cmc2": "Ihr 3. Vorteilsangebot Ein Euro-Scheck in Ihrem Paket***! Und der Betrag kann bis zu … €5.000,00",
+        "btn" : "Profitieren Sie gleich"
+      },
+      "nl": {
+        "csoa": "Uw 1e privilege De Évasion-tas GRATIS* voor u!",
+        "cmc" : "Uw 2e privilege De bijpassende Toilettas Vriendenprijsje**",
+        "cmc2": "Uw 3e privilege Een cheque in euro’s in uw pakje naast de cadeaus waar u recht op hebt*** ! En het bedrag ervan kan gaan tot… €5.000,00",
+        "btn" : "Bestel snel!"
+      },
+      "uk": {
+        "csoa": "Your 1st Bonus The Évasion Bag FREE* For you!",
+        "cmc" : "Your 2nd Bonus The matching Toilet bag at Bargain Price**",
+        "cmc2": "Your 3rd Bonus A Cheque in pounds in your package as well as the Gifts which you are entitled to ***! And its amount may be as high as… £ 5,000.00",
+        "btn" : "Order quickly to enter!"
+      }
+    },
+    "id" : {
+      "csoa": "",
+      "cmc" : "",
+      "cmc2": "#ctl00_ContentPlaceHolder1_RepeatNiveau_cadeau_ctl00_LAB_PRIVILEGE_COMMANDE",
+      "exempleID" : "############################################",
+      "csoa_origin" : "#ctl00_ContentPlaceHolder1_LAB_CADEAU_SANS_ACHAT"
+    },
+    "modalite" : "#info-legale-03"
+  },
+  "mention_plus": {
+    "bf": {
+      "link": {
+        "1": ["*** Un chèque en euros dans votre colis.", "Voir les modalités de l'opération", "."],
+        "2": ""
+      },
+      "nolnk": {
+        "1": "** La trousse de toilette assortie Prix d'Ami pour 2€ seulement en remerciement de votre commande de 50€ ou plus",
+        "2": ""
+      }
+    },
+    "bv": {
+      "link": "*** Bekijk de toekenningsvoorwaarden spelreglement €5.000,00 te winnen.",
+      "nolnk": {
+        "1": "** De bijpassende Toilettas Vriendenprijsje  €2 bij uw bestelling voor €49 or meer.",
+        "2": ""
+      }
+    },
+    "de": {
+      "link": "*** Lesen Sie auch die Spielregeln.",
+      "nolnk": {
+        "1": "* Die Tasche Évasion GRATIS  Mit Ihrer Bestellung.",
+        "2": "**Der passende Kulturbeutel Freundschaftspreis €2  einen Bestellwert von €49."
+      }
+    },
+    "fr": {
+      "link": "",
+      "nolnk": ""
+    },
+    "nl": {
+      "link": "*** Bekijk de toekenningsvoorwaarden spelreglement €5.000,00 te winnen.",
+      "nolnk": {
+        "1": "** De bijpassende Toilettas Vriendenprijsje  €2 bij uw bestelling voor €49 or meer.",
+        "2": ""
+      }
+    },
+    "uk": {
+      "link": "*** See our terms and conditions of £5,500 to be won. ",
+      "nolnk": {
+        "1": "* Photos are non-contractual, Actual products may differ slightly from photos. If stocks are insufficient, Ideal Practical reserves the right to replace your gift with an article of similar or greater value.",
+        "2": "** The matching Toilet bag at Bargain Price only £2 as a thank you for an order of £39 or more."
+      },
+      "phone_ast": 3
+    }
+  },
+  "banner": {
+    "is": false,
+    "bf": {
+      "lnk": "https://www.ideal-pratique.be/befr/",
+      "alt": "Une tablette tactile à gagner"
+    },
+    "bv": {
+      "lnk": "https://www.ideal-praktijk.be/bevl/",
+      "alt": "Speciale actie TOUCH SCREEN ALS CADEAU"
+    },
+    "de": {
+      "lnk": "https://www.ideal-praktisch.de/de/",
+      "alt": "Zusatz-Aktion/Vergabe TOUCHSCREEN"
+    },
+    "nl": {
+      "lnk": "https://www.ideal-praktijk.nl/nl/",
+      "alt": "Speciale actie TOUCH SCREEN ALS CADEAU"
+    },
+    "uk": {
+      "lnk": "https://www.ideal-practical.co.uk/uk/",
+      "alt": "IPAD AIR WITH RETINA SCREEN WIFI CELLULAR 32 GB FREE to Win!"
+    },
+    "to": "animation/presentation-cadeaux.aspx",
+    "trk": "?utm_source=NL&utm_medium=email&utm_content=banner&utm_campaign=",
+    "id": "#ctl00_ContentPlaceHolder1_RepeatNiveau_cadeau_ctl00_LAB_PRIVILEGE_COMMANDE"
+  },
+  "layout": {
+    "abspath": false,
+    "normal" : false
+  },
+  "url": {
+    "bf": "https://www.ideal-pratique.be/befr/",
+    "bv": "https://www.ideal-praktijk.be/bevl/",
+    "de": "https://www.ideal-praktisch.de/de/",
+    "fr": "https://www.tempsl.fr/fr/",
+    "nl": "https://www.ideal-praktijk.nl/nl/",
+    "uk": "https://www.ideal-practical.co.uk/uk/"
+  },
+  "_comment": "",
+  "ray": "boutique/rayon_evenement.aspx?urlLangue=fr&nbp=99&pg=0&evenement_id=",
+  "prix" : "..."
+}
